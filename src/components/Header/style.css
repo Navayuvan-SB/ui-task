@@ -1,0 +1,15 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: inset 0px -1px 0px #e5e7eb;
+}
+
+.header-container .inner-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-container .icon {
+  margin-right: 10px;
+}

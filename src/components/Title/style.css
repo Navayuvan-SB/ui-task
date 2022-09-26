@@ -1,0 +1,33 @@
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 6px;
+}
+
+.title .title-text {
+  font-size: 20px;
+  color: #111827;
+}
+
+.title .combined-button {
+  background: #4f46e5;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80px;
+  height: 35px;
+}
+
+.title .combined-button .combined-button-item {
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title .combined-button .combined-button-item:nth-child(1) {
+  border-right: 1px solid #fff;
+}

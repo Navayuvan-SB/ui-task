@@ -1,0 +1,69 @@
+.stats-item {
+  border: 1px solid #f3f4f6;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.stats-item .inner-container {
+  align-self: flex-start;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  flex: 1;
+  height: 58px;
+  margin-left: 10px;
+}
+
+.stats-item .inner-container .title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats-item .inner-container .title p {
+  margin: 0;
+  margin-bottom: 5px;
+  color: #111827;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.stats-item .inner-stats,
+.stats-item .inner-stats .inner-stats-item {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.stats-item .inner-stats .inner-stats-item {
+  max-width: 160px;
+  margin-right: 10px;
+}
+
+.stats-item .inner-stats .inner-stats-item .icon {
+  width: 20px;
+  height: 20px;
+  margin-top: 2.5px;
+}
+
+.stats-item .inner-stats .inner-stats-item .icon:nth-child(1) {
+  margin-right: 5px;
+}
+
+.stats-item .inner-stats .inner-stats-item .text {
+  color: #6b7280;
+  font-size: 12px;
+  margin: 0;
+  padding: 5px;
+}
+
+.stats-item .inner-stats .inner-stats-item .text.filled {
+  background: #f3f4f6;
+  border-radius: 50px;
+  padding: 5px;
+}

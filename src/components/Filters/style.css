@@ -1,0 +1,35 @@
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0px;
+}
+
+.filter-container .outlined-container {
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+  padding: 0px 10px;
+}
+
+.filter-container .right-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 175px;
+}
+
+.filter-container .outlined-container p {
+  font-size: 14px;
+}
+
+.filter-container .outlined-container .icon {
+  margin: 0px 5px;
+}
+
+.filter-container .outlined-container.filter {
+  width: 60px;
+}
